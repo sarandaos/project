@@ -1,0 +1,126 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-image: url(DALL·E\ 2024-10-15\ 14.22.28\ -\ A\ hyper-realistic\ 4K\ mountain\ landscape\ at\ sunrise\ or\ sunset\,\ with\ towering\,\ snow-covered\ peaks\ casting\ long\ shadows\ over\ the\ surrounding\ valleys.\ A\ l.webp);
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.navbar {
+    padding: 15px 0;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 100;
+}
+
+.navbar-container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar-brand {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+}
+
+.navbar-menu {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.navbar-menu li a {
+    font-size: 16px;
+    padding: 8px 15px;
+    color: #333;
+    transition: color 0.3s ease;
+}
+
+.navbar-menu li a:hover {
+    color: #007bff;
+}
+
+.navbar-buttons .btn {
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+.btn-primary {
+    background-color: #007bff;
+    color: white;
+    border: none;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3;
+}
+
+.btn-secondary {
+    background-color: transparent;
+    color: #007bff;
+    border: 1px solid #007bff;
+    margin-left: 10px;
+}
+
+.btn-secondary:hover {
+    background-color: #f4f4f4;
+}
+
+@media screen and (min-width: 391px) and (max-width: 845px) {
+    .navbar-container {
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 15px;
+    }
+
+    .navbar-menu {
+        flex-direction: row;
+        margin: 10px 0;
+    }
+
+    .navbar-menu li {
+        margin: 10px 0;
+    }
+
+    .navbar-buttons {
+        margin-top: 10px;
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+    }
+
+    .btn {
+        width: 48%;
+        text-align: center;
+        padding: 10px;
+        font-size: 16px;
+    }
+
+    body {
+        font-family: 'Arial', sans-serif;
+        background-image: url(DALL·E\ 2024-10-15\ 14.22.28\ -\ A\ hyper-realistic\ 4K\ mountain\ landscape\ at\ sunrise\ or\ sunset\,\ with\ towering\,\ snow-covered\ peaks\ casting\ long\ shadows\ over\ the\ surrounding\ valleys.\ A\ l.webp);
+    }
+
+    h3{
+        font-size: 20px;
+    }
+    
+}

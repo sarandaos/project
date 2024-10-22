@@ -1,0 +1,238 @@
+.navbar{
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+
+
+
+    body{
+        background-color: #f4f4f4;
+    }
+
+
+
+    a {
+        text-decoration: none;
+        color: inherit;
+    }
+    
+
+    
+    .navbar-container {
+        width: 90%;
+        max-width: 1200px;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+    .navbar-brand {
+        font-size: 24px;
+        font-weight: bold;
+        color: #333;
+    }
+    
+    .navbar-menu {
+        list-style: none;
+        display: flex;
+        gap: 20px;
+    }
+    
+    .navbar-menu li a {
+        font-size: 16px;
+        padding: 8px 15px;
+        color: #333;
+        transition: color 0.3s ease;
+    }
+    
+    .navbar-menu li a:hover {
+        color: #007bff;
+    }
+    
+    .navbar-buttons .btn {
+        padding: 10px 20px;
+        border-radius: 5px;
+        font-size: 16px;
+        transition: background-color 0.3s ease;
+    }
+    
+    .btn-primary {
+        background-color: #007bff;
+        color: white;
+        border: none;
+    }
+    
+    .btn-primary:hover {
+        background-color: #0056b3;
+    }
+    
+    .btn-secondary {
+        background-color: transparent;
+        color: #007bff;
+        border: 1px solid #007bff;
+        margin-left: 10px;
+    }
+    
+    .btn-secondary:hover {
+        background-color: #f4f4f4;
+    }
+}
+    @media screen and (min-width: 391px) and (max-width: 845px) {
+        .navbar-container {
+            flex-direction: column;
+            align-items: flex-start;
+            padding: 15px;
+        }
+    
+        .navbar-menu {
+            flex-direction: row;
+            margin: 10px 0;
+        }
+    
+        .navbar-menu li {
+            margin: 10px 0;
+        }
+    
+        .navbar-buttons {
+            margin-top: 10px;
+            display: flex;
+            justify-content: space-between;
+            width: 100%;
+        }
+    
+        .btn {
+            width: 48%;
+            text-align: center;
+            padding: 10px;
+            font-size: 16px;
+        }
+
+        .jacket1 {
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+    
+        .okay, .okay2, .okay3, .okay4 {
+            width: 45%; 
+            margin-bottom: 20px;
+           
+        }
+    
+        img {
+            width: 200px;
+            height: auto;
+        }
+
+
+
+
+
+        }
+        
+    
+
+
+
+
+    
+
+
+          .jacket1{
+        
+            margin:5px ;
+            padding: 5px;
+            gap: 15px;
+
+
+            border: 2px  solid white;
+border-radius: 20px;
+display: flex;
+
+          }
+          .okay{
+            display: block;
+           
+
+               }
+   
+
+
+
+          .okay2{
+            display: block;
+           
+
+               }
+   
+               .okay3{
+                display: block;
+                
+                
+                   }
+                   .okay4{
+                    display: block;
+                   
+                   }
+
+                   .stars{
+                    color: yellow;
+                   }
+                
+                   .stars1{
+                    color: antiquewhite;
+                   }
+
+                   .buttonswitch{
+                    display: flex;
+                    gap: 4px;
+                    h1{
+                        gap: 15px;
+                    }
+                    * {
+                        margin: 0;
+                        padding: 0;
+                        box-sizing: border-box;
+                    }
+                    
+
+                    
+                 
+                    
+                    .circle1 {
+                        width: 30px;
+                        height: 30px;
+                        border-radius: 50%;
+                        background-color: gray;
+                        transition: transform 1.5s ease, background-color 0.3s ease;
+                        cursor: pointer;
+                    }
+
+                    .circle2 {
+                        width: 30px;
+                        height: 30px;
+                        border-radius: 50%;
+                        background-color: silver;
+                        transition: transform 1.5s ease, background-color 0.3s ease;
+                        cursor: pointer;
+                    }
+
+                    .circle3 {
+                        width: 30px;
+                        height: 30px;
+                        border-radius: 50%;
+                        background-color: rgb(15, 63, 221);
+                        transition: transform 1.5s ease, background-color 0.3s ease;
+                        cursor: pointer;
+                    }
+                    
+                   
+                   }
+
+          
+                  
+
+                  
